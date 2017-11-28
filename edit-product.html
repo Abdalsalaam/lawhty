@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>لوحة التحكم - تعديل المنتج</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/js/trumbowyg/ui/trumbowyg.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<!-- الشريط العلوي-->
+<nav class="navbar navbar-style">
+    <div class="container">
+        <a href="#" class="fa fa-bars" id="open-button"></a>
+        <div class="navbar-brand p-0">
+            <a href="index.html"><img src="assets/images/logo.png" alt="لوحتي"></a>
+        </div>
+
+        <ul class="float-left p-0 m-0 list-unstyled d-flex flex-row">
+            <li>
+                <a href="#">
+                    <span class="text-center menu-notification">+9</span>
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li >
+                <div class="dropdown user-dropdown">
+                    <a data-toggle="dropdown" id="dropdownMenuButton">
+                        <img alt="" class="user-thumb" src="assets/images/user.png">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#"><i class="fa fa-user"></i>عبد السلام حلاوة</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-lock"></i>تسجيل الخروج</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<!-- نهاية الشريط العلوي-->
+
+<!-- القائمة الجانبية -->
+<div id="slideMenu">
+    <ul class="list-unstyled p-0">
+        <li><a href="index.html"><i class=" fa fa-home"></i>الرئيسية</a></li>
+        <li><a href="index.html"><i class="fa fa-bar-chart"></i>احصائيات المتجر</a></li>
+        <li><a href="products.html"><i class="fa fa-truck"></i>المنتجات</a></li>
+        <li><a href="index.html"><i class="fa fa-shopping-cart"></i>الطلبات</a></li>
+        <li><a href="customers.html"><i class="fa fa-users"></i>الزبائن</a></li>
+        <li><a href="#"><i class="fa fa-gears"></i>اعدادات المتجر</a></li>
+    </ul>
+</div>
+<!-- نهائة القائمة الجانبية -->
+
+<!-- محتويات الصفحة -->
+<div id="siteContent" class="container">
+
+    <!-- قائمة التصفح العليا -->
+    <ul class="breadcrumb custom-breadcrumb">
+        <li class="breadcrumb-item"><a href="#">لوحتي</a></li>
+        <li class="breadcrumb-item "><a href="#">لوحة التحكم</a></li>
+        <li class="breadcrumb-item active"><a href="#">تعديل المنتج</a></li>
+    </ul>
+    <!-- نهاية قائمة التصفح العليا -->
+
+    <div class="row">
+        <div class="col-lg-9 col-12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-block">
+                        <h2>
+                            <i class="fa fa-plus block-icon" aria-hidden="true"></i>تعديل المنتج
+                        </h2>
+
+                        <form class="custom-form">
+                            <div class="form-group">
+                                <input class="form-control" title="product-title" type="text"  value="قميص تك فت بيز">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="editor" class="form-control" title="product-details">
+                                     حقق أقصى أداء أثناء تمارينك الرياضية مع قميص تك فت بيز الرياضي الذي يمنحك الراحة ويدعم عضلاتك.
+
+                                    <ol>
+                                        <li>    درزات ناعمة لتخفيف الاحتكاك والتشققات</li>
+                                        <li>    مصنع من 88% بوليستر</li>
+                                        <li>مستورد</li>
+                                    </ol>
+
+                                </textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="content-block">
+                        <h3>
+                            <i class="fa fa-image block-icon" aria-hidden="true"></i>صورة المنتج
+                        </h3>
+
+                        <div class="custom-form custom-file-upload">
+                            <img class="custom-file-upload-image" src="assets/images/shirt.png" alt="">
+                            <img class="custom-file-upload-image" src="assets/images/shirt.png" alt="">
+                            <input type="file" name="file" id="file" />
+                            <label for="file" class="custom-file-upload-label">
+                                <i class="fa fa-plus m-auto" aria-hidden="true"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-block product-publish">
+                        <a href="#" class="btn custom-btn">تعديل المنتج</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-12">
+                    <div class="content-block custom-widget">
+                        <div class="title">
+                            <i class="fa fa-tags block-icon" aria-hidden="true"></i>القسم
+                        </div>
+
+                        <ul class="text-right list-unstyled p-0 m-0 custom-checkbox">
+                            <li>
+                                <input id="cat1" type="checkbox">
+                                <label for="cat1">رجالي</label>
+                            </li>
+
+                            <li>
+                                <input id="cat2" type="checkbox">
+                                <label for="cat2">نسائي</label>
+                            </li>
+
+                            <li>
+                                <input id="cat3" type="checkbox" checked="checked">
+                                <label for="cat3">أطفال</label>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-12">
+                    <div class="content-block custom-widget">
+                        <div class="title">
+                            <i class="fa fa-registered block-icon" aria-hidden="true"></i>الماركة
+                        </div>
+
+                        <ul class="text-right list-unstyled p-0 m-0 custom-radio">
+                            <li>
+                                <input name="brand" id="brand1" type="radio">
+                                <label for="brand1">Puma</label>
+                            </li>
+
+                            <li>
+                                <input name="brand" id="brand2" type="radio" checked="checked">
+                                <label for="brand2">Addidas</label>
+                            </li>
+
+                            <li>
+                                <input name="brand" id="brand3" type="radio">
+                                <label for="brand3">Lacost</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-12">
+                    <div class="content-block custom-widget">
+                        <div class="title">
+                            <i class="fa fa-tint block-icon" aria-hidden="true"></i>الألوان المتوفرة
+                        </div>
+
+                        <ul class="text-right list-unstyled p-0 m-0 custom-color-checkbox">
+                            <li>
+                                <input id="color1" type="checkbox">
+                                <label for="color1" style="background: #339900"></label>
+                            </li>
+
+                            <li>
+                                <input id="color2" type="checkbox" checked="checked">
+                                <label for="color2" style="background: #ffcc00"></label>
+                            </li>
+
+                            <li>
+                                <input id="color3" type="checkbox" checked="checked">
+                                <label for="color3" style="background: #f15c61"></label>
+                            </li>
+
+                            <li>
+                                <input id="color4" type="checkbox">
+                                <label for="color4" style="background: #1DABB8"></label>
+                            </li>
+
+                            <li>
+                                <input id="color5" type="checkbox">
+                                <label for="color5" style="background: #1D2247"></label>
+                            </li>
+
+                            <li>
+                                <input id="color6" type="checkbox" checked="checked">
+                                <label for="color6" style="background: #953163"></label>
+                            </li>
+
+                            <li>
+                                <input id="color7" type="checkbox">
+                                <label for="color7" style="background: #EE543A"></label>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-12">
+                    <div class="content-block custom-widget">
+                        <div class="title">
+                            <i class="fa fa-tags block-icon" aria-hidden="true"></i>المقاسات المتوفرة
+                        </div>
+
+                        <ul class="text-right list-unstyled p-0 m-0 custom-checkbox">
+                            <li>
+                                <input id="size1" type="checkbox">
+                                <label for="size1">S</label>
+                            </li>
+
+                            <li>
+                                <input id="size2" type="checkbox" checked="checked">
+                                <label for="size2">M</label>
+                            </li>
+
+                            <li>
+                                <input id="size3" type="checkbox" checked="checked">
+                                <label for="size3">L</label>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- نهائة محتويات الصفحة -->
+
+<!-- تذييل الصفحة -->
+<footer class="text-center">لوحتي - لوحة تحكم مجانية | تصميم <a href="http://abdalsalaam.xyz">عبد السلام</a></footer>
+<!-- نهائة تذييل الصفحة -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/Chart.js"></script>
+<script src="assets/js/jquery.slimscroll.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/trumbowyg/trumbowyg.min.js"></script>
+<script src="assets/js/trumbowyg/langs/ar.js"></script>
+<script src="assets/js/js.js"></script>
+</body>
+</html>

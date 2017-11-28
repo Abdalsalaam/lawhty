@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>لوحة التحكم - ملف الزبون</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<!-- الشريط العلوي-->
+<nav class="navbar navbar-style">
+    <div class="container">
+        <a href="#" class="fa fa-bars" id="open-button"></a>
+        <div class="navbar-brand p-0">
+            <a href="index.html"><img src="assets/images/logo.png" alt="لوحتي"></a>
+        </div>
+
+        <ul class="float-left p-0 m-0 list-unstyled d-flex flex-row">
+            <li>
+                <a href="#">
+                    <span class="text-center menu-notification">+9</span>
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li >
+                <div class="dropdown user-dropdown">
+                    <a data-toggle="dropdown" id="dropdownMenuButton">
+                        <img alt="" class="user-thumb" src="assets/images/user.png">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#"><i class="fa fa-user"></i>عبد السلام حلاوة</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-lock"></i>تسجيل الخروج</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<!-- نهاية الشريط العلوي-->
+
+<!-- القائمة الجانبية -->
+<div id="slideMenu">
+    <ul class="list-unstyled p-0">
+        <li><a href="index.html"><i class=" fa fa-home"></i>الرئيسية</a></li>
+        <li><a href="index.html"><i class="fa fa-bar-chart"></i>احصائيات المتجر</a></li>
+        <li><a href="products.html"><i class="fa fa-truck"></i>المنتجات</a></li>
+        <li><a href="index.html"><i class="fa fa-shopping-cart"></i>الطلبات</a></li>
+        <li><a href="customers.html"><i class="fa fa-users"></i>الزبائن</a></li>
+        <li><a href="#"><i class="fa fa-gears"></i>اعدادات المتجر</a></li>
+    </ul>
+</div>
+<!-- نهائة القائمة الجانبية -->
+
+<!-- محتويات الصفحة -->
+<div id="siteContent" class="container">
+
+    <!-- قائمة التصفح العليا -->
+    <ul class="breadcrumb custom-breadcrumb">
+        <li class="breadcrumb-item"><a href="#">لوحتي</a></li>
+        <li class="breadcrumb-item "><a href="#">لوحة التحكم</a></li>
+        <li class="breadcrumb-item active"><a href="#">ملف الزبون</a></li>
+    </ul>
+    <!-- نهاية قائمة التصفح العليا -->
+
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-block">
+                        <h1>
+                            <i class="fa fa-user block-icon" aria-hidden="true"></i>ملف الزبون
+                        </h1>
+
+                        <form class="custom-form user-profile-form d-flex flex-wrap">
+                            <div class="form-group">
+                                <label for="username">اسم المستخدم</label>
+                                <input id="username" class="form-control" type="text" value="mostafa">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="first-name">الاسم الاول</label>
+                                <input id="first-name" class="form-control" type="text" value="مصطفى">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="second-name">الاسم الثاني</label>
+                                <input id="second-name" class="form-control" type="text" value="عبد الرحمن">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">البريد الالكتروني</label>
+                                <input id="email" class="form-control" type="text" value="example@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">رقم الهاتف</label>
+                                <input id="phone" class="form-control" type="text" value="00970000111222">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="country">الدولة</label>
+                                <select id="country" class="form-control">
+                                    <option selected="selected">فلسطين</option>
+                                    <option>سوريا</option>
+                                    <option>المملكة اللوحتية السعودية</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="city">المدينة</label>
+                                <select id="city" class="form-control">
+                                    <option selected="selected">القدس</option>
+                                    <option>غزة</option>
+                                    <option>رام الله</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="region">المنطقة</label>
+                                <input id="region" class="form-control" type="text" value="البلدة القديمة">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="first-address">العنوان الأول</label>
+                                <input id="first-address" class="form-control" type="text" value="الحي الإسلامي">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="second-address">العنوان الثاني</label>
+                                <input id="second-address" class="form-control" type="text">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-block">
+                        <h3>
+                            <i class="fa fa-bar-chart block-icon" aria-hidden="true"></i>آخر المشتريات
+                        </h3>
+
+                        <table class="table customer-orders">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th>العدد</th>
+                                    <th>السعر</th>
+                                    <th>الاجمالي</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+
+                              <tr>
+                                <td><img alt="" class="rounded-circle  order-thumb" src="assets/images/shirt.png"/></td>
+                                <td>
+                                    <div><a href="#">قميص تك فت بيز</a></div>
+                                    <div class="order-info"><a href="#">ملابس رجالي</a></div>
+                                </td>
+                                <td>2</td>
+                                <td>25$</td>
+                                <td>50$</td>
+                                <td><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+                              </tr>
+
+                              <tr>
+                                  <td><img alt="" class="rounded-circle  order-thumb" src="assets/images/shirt.png"/></td>
+                                  <td>
+                                      <div><a href="#">قميص تك فت بيز</a></div>
+                                      <div class="order-info"><a href="#">ملابس رجالي</a></div>
+                                  </td>
+                                  <td>2</td>
+                                  <td>25$</td>
+                                  <td>50$</td>
+                                  <td><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+                              </tr>
+
+                              <tr>
+                                  <td><img alt="" class="rounded-circle  order-thumb" src="assets/images/shirt.png"/></td>
+                                  <td>
+                                      <div><a href="#">قميص تك فت بيز</a></div>
+                                      <div class="order-info"><a href="#">ملابس رجالي</a></div>
+                                  </td>
+                                  <td>2</td>
+                                  <td>25$</td>
+                                  <td>50$</td>
+                                  <td><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+                              </tr>
+
+                              <tr>
+                                  <td><img alt="" class="rounded-circle  order-thumb" src="assets/images/shirt.png"/></td>
+                                  <td>
+                                      <div><a href="#">قميص تك فت بيز</a></div>
+                                      <div class="order-info"><a href="#">ملابس رجالي</a></div>
+                                  </td>
+                                  <td>2</td>
+                                  <td>25$</td>
+                                  <td>50$</td>
+                                  <td><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+                              </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <div class="row profile-btn">
+                <div class="col-6">
+                    <div class="content-block">
+                        <a href="#" class="btn custom-btn black-btn">تعديل</a>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="content-block">
+                        <a href="#" class="btn custom-btn">حذف</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-block custom-widget">
+                        <div class="title">
+                            <i class="fa fa-envelope block-icon" aria-hidden="true"></i>البريد الالكتروني
+                        </div>
+
+                        <ul class="list-unstyled p-0 mail-list">
+                            <li>
+                                <div>بريد الكتروني سابق</div>
+                                <div class="text-left mail-date">01/01/2017</div>
+                                <a class="delete-icon" href="#"><i class="fa fa-close" aria-hidden="true"></i></a>
+                            </li>
+
+                            <li>
+                                <div>بريد الكتروني سابق</div>
+                                <div class="text-left mail-date">01/01/2017</div>
+                                <a class="delete-icon" href="#"><i class="fa fa-close" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+
+                        <form class="mail-form">
+                            <div class="form-group">
+                                <textarea class="form-control" title="mail-text"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <a href="#" class="form-control btn light-btn">ارسال البريد</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- نهائة محتويات الصفحة -->
+
+<!-- تذييل الصفحة -->
+<footer class="text-center">لوحتي - لوحة تحكم مجانية | تصميم <a href="http://abdalsalaam.xyz">عبد السلام</a></footer>
+<!-- نهائة تذييل الصفحة -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/Chart.js"></script>
+<script src="assets/js/jquery.slimscroll.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/js.js"></script>
+</body>
+</html>
