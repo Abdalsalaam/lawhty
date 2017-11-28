@@ -2,8 +2,8 @@
 Simple RTL responsive store dashboard
  * first edition
  * Framework : bootstrap 4 alpha 6
- * abdalsalaam.xyz
- * facebook.com/Abdalsalaam.94
+ 
+Live preview : http://abdalsalaam.xyz/lawhty
 
 
 # لوحتي
@@ -12,11 +12,11 @@ Simple RTL responsive store dashboard
 
 
 
-
-
-
+معاينة حية : http://abdalsalaam.xyz/lawhty
 
 
 تصميم وتطوير عبد السلام حلاوة
 
 abdalsalaam@outlook.com
+facebook.com/Abdalsalaam.94
+abdalsalaam.xyz
