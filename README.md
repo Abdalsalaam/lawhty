@@ -18,5 +18,7 @@ Live preview : http://abdalsalaam.xyz/lawhty
 تصميم وتطوير عبد السلام حلاوة
 
 abdalsalaam@outlook.com
-facebook.com/Abdalsalaam.94
-abdalsalaam.xyz
+
+https://fb.com/abdalsalaam.94
+
+http://abdalsalaam.xyz/
