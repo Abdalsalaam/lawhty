@@ -13,12 +13,3 @@ Live preview : http://abdalsalaam.xyz/lawhty
 
 
 معاينة حية : http://abdalsalaam.xyz/lawhty
-
-
-تصميم وتطوير عبد السلام حلاوة
-
-abdalsalaam@outlook.com
-
-https://fb.com/abdalsalaam.94
-
-http://abdalsalaam.xyz/
